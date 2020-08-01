@@ -43,7 +43,7 @@ The pre-processing performed in the Tabular database based on time and space, de
 - Normalization application (min-max) of quantitative attributes;
 - Application of transforming categorical data to ordinals (neighborhood);
 - Creation of a binary Class attribute based on the number of homicides that occurred in the following month equal to zero (non-homicide) and greater than zero (homicide occurrence);
-- The processes mentioned above were performed in the Orange Dataming project file: Pred2Town_Orange_Pre-process.ows
+- The processes mentioned above were performed in the Orange Dataming project file: Pred2Town_Orange_Pre-process.ows (Orange Tool: https://orange.biolab.si/)
 
 The result of the database transformation and cleaning is the file: 
 - Pred2Town_Orange_Pre-processed_by_Orange_bin.csv
@@ -51,7 +51,7 @@ The result of the database transformation and cleaning is the file:
 ## 3 - Measurement of performances;
 
 The performance measures of the 8 algorithms analyzed in this study are available in the Orange Datamining project file: 
-- Pred2Town_Performances.ows.
+- Pred2Town_Performances.ows (Orange Tool: https://orange.biolab.si/)
 
 ## 4 - Statistical analysis;
 All statistical analyzes of the 8 algorithms were performed using the Spider 4.0.1 development environment through the python script developed by the authors:
