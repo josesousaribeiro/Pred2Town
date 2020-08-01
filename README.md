@@ -1,4 +1,4 @@
-# Pred2Town
+# Pred2Town - Prediction of Homicides in Urban Centers: A Machine Learning Approach
 
 Authors:
 
