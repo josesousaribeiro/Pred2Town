@@ -47,8 +47,8 @@ The pre-processing performed in the Tabular database based on time and space, de
 - Normalization application (min-max) of quantitative attributes;
 - Application of transforming categorical data to ordinals (neighborhood);
 - Creation of a binary Class attribute based on the number of homicides that occurred in the following month equal to zero (non-homicide) and greater than zero (homicide occurrence);
-- The processes mentioned above were performed in the Orange Dataming project file: Pred2Town_Orange_Pre-process.ows (Orange Tool: https://orange.biolab.si/)
 
+The processes mentioned above were performed in the Orange Dataming project(Orange Tool: https://orange.biolab.si/);
 The result of the database transformation and cleaning is the file: 
 - https://github.com/josesousaribeiro/Pred2Town/blob/master/Pred2Town_Orange_Pre-processed_by_Orange_bin.csv
 
