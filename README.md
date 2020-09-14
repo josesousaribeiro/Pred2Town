@@ -52,7 +52,7 @@ The processes mentioned above were performed in the Orange Dataming project(Oran
 The result of the database transformation and cleaning is the file: 
 - https://github.com/josesousaribeiro/Pred2Town/blob/master/Pred2Town_Orange_Pre-processed_by_Orange_bin.csv
 
-###Description and translation of clean database labels:
+### Description and translation of clean database labels:
 https://github.com/josesousaribeiro/Pred2Town/blob/master/Translation%20of%20clean%20data%20labels
 
 ## 3 - Measurement of performances;
