@@ -1,0 +1,55 @@
+The clean database, after the processes listed in "1 - Pre-processing of raw data from police reports" and "2 - Pre-processing of temporal tabular data", presents the labels in Portuguese listed below, but to facilitate replication for future research, the mapping / translation of each label into English is recorded below.
+
+Obs: CRB means "Crime Registered in Bulletin";
+Obs: Variables with "count" refer to the results of counting a crime in a specific year and month;
+
+quant_ameaca_crb  -   threat count;
+quant_lesao_corporal_crb  - bodily injury count;
+quant_roubo_crb - assault count;
+quant_furto_crb - theft count;
+quant_recuperacao_de_veiculo_crb  - vehicle recovery count;
+quant_injuria_crb - injury count;
+quant_outros_fatos_atipicos_crb - count of other atypical facts;
+quant_homicidios_mes_crb  - current month's homicide count;
+quant_morte_natural_crb - natural death count;
+quant_lesao_no_transito_crb - traffic injury count;
+quant_calunia_crb - slander count;
+quant_difamacao_crb - defamation count;
+quant_vias_de_fato_crb  - fight count;
+quant_estelionato_crb - count of stelionate;
+quant_dano_no_transito_crb  - traffic damage count;
+quant_abandono_do_lar_crb - home abandonment count;
+quant_conflitos_familiares_crb  - counting family conflicts;
+quant_dano_crb  - damage count;
+quant_apropriacao_indebita_crb  - count of indefinite appropriation;
+quant_trafico_de_drogas_crb - drug trafficking count;
+quant_apresentacao_mandado_de_prisao_crb  -  arrest warrant submission count;
+quant_dano_civil_crb  -  civil damage count;
+quant_assistencia_social_crb  - welfare count;
+quant_roubo_de_veiculo_crb  - vehicle theft count;
+quant_para_fins_de_direito_crb  - counting for law purposes (registration law);
+quant_poluicao_sonora_crb  -  noise pollution count;
+quant_agressao_fisica_crb - physical aggression count;
+quant_desobediencia_crb - disobedience count;
+quant_receptacao_crb  - reception count;
+quant_estupro_crb - rape count;
+quant_fuga_do_lar_crb - home escape count;
+quant_desaparecimento_de_pessoa_crb - count of person disappearance;
+quant_tentativa_de_homicidio_crb  - attempted murder count;
+quant_conflitos_vicinais_crb  - count of vicinal conflicts;
+quant_conflitos_conjugais_crb - marital conflict count;
+quant_desacato_crb  - contempt count;
+quant_estupro_de_vulneravel_crb - vulnerable rape count;
+quant_outras_fraudes_crb  - count of other scams;
+quant_comunicacao_para_fins_de_direito_crb  - count of communication for law purposes (registration law);
+quant_perturbacoes_da_tranquilidade_crb -  tranquility disturbance count;
+quant_comunicacao_de_obito_crb death communication count;
+bairro_crb  - neighborhood;
+mes_num_crb - month as number;
+ano_crb - year as number;
+Class - Binary classification, 
+      1 represents the occurrence of homicide in the following month; and
+      0 represents the non-occurrence of homicide in the following month.
+
+meta_mes_crb  - month as text;
+meta_ano  - year as text;
