@@ -20,7 +20,7 @@ Relevant research has been highlighted in the computing community to develop mac
 
 The disclosure of statistical information present in this study is duly authorized by the Secretariat of Public Security and Social Defense of the State of Pará, Brazil. Document available at: 
 
-(Autorization)[https://github.com/josesousaribeiro/Pred2Town/blob/master/Autorization%20of%20Data's%20Utilization/Authorization%20to%20use%20data%20on%20behalf%20of%20Jose%CC%81%20Ribeiro.PDF]
+[Autorization](https://github.com/josesousaribeiro/Pred2Town/blob/master/Autorization%20of%20Data's%20Utilization/Authorization%20to%20use%20data%20on%20behalf%20of%20Jose%CC%81%20Ribeiro.PDF)
 
 # The procedures performed in this research can be divided into 5 parts:
 
