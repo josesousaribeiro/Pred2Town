@@ -14,13 +14,13 @@ Ronnie Alves (Orientador) - site: https://sites.google.com/site/alvesrco/
 
 # Search summary
 
-Relevant research has been standing out in the computing community aiming to develop computational models capable of predicting occurrence of crimes, analyzing contexts of crimes, extracting profiles of individuals linked to crimes, and analyzing crimes according to time. This, due to the social impact and also the  complex origin of the data, thus showing itself as an interesting computational challenge. This research presents a computational model for the prediction of homicide crimes, based on tabular data of crimes registered in the city of Belém - Pará, Brazil. Statistical tests were performed with 8 different classification methods, both Random Forest, Logistic Regression, and Neural Network presented best results, AUC ~ 0.8. Results considered as a baseline for the proposed problem.
+Relevant research has been highlighted in the computing community to develop machine learning models capable of predicting the occurrence of crimes, analyzing contexts of crimes, extracting profiles of individuals linked to crime, and analyzing crimes over time. However, models capable of predicting specific crimes, such as homicide, are not commonly found in the current literature. This research presents a machine learning model to predict homicide crimes, using a dataset that uses generic data (without study location dependencies) based on incident report records for 34 different types of crimes, along with time and space data from crime reports. Experimentally, data from the city of Belém - Pará, Brazil was used. These data were transformed to make the problem generic, enabling the replication of this model to other locations. In the research, analyses were performed with simple and robust algorithms on the created dataset. With this, statistical tests were performed with 11 different classification methods and the results are related to the prediction’s occurrence and non-occurrence of homicide crimes in the month subsequent to the occurrence of other registered crimes, with 76% assertiveness for both classes of the problem, using Random Forest. Results are considered as a baseline for the proposed problem.
 
 # Important
 
 The disclosure of statistical information present in this study is duly authorized by the Secretariat of Public Security and Social Defense of the State of Pará, Brazil. Document available at: https://github.com/josesousaribeiro/Pred2Town/blob/master/Autorization%20of%20Data's%20Utilization/Authorization%20to%20use%20data%20on%20behalf%20of%20Jose%CC%81%20Ribeiro.PDF
 
-# The procedures performed in this research can be divided into 4 parts:
+# The procedures performed in this research can be divided into 5 parts:
 
 Note, in order not to expose the personal information of individuals, we do not provide in this repository information a raw database of reports of occurrence reports of the city of study.
 
@@ -40,35 +40,45 @@ The main pre-processing and data transformations carried out were:
 - Exclusion of police reports instances considered non-crimes;
 - Exclusion of duplicate occurrence records (since a crime can be registered in more than one police report, in this case by different people);
 
-## 2 - Pre-processing of temporal tabular data.
+## 2 - Pre-processing of tabular data.
 
-The pre-processing performed in the Tabular database based on time and space, defended by this research are listed below:
+The pre-processing performed in the tabular database based on time and space, defended by this research are listed below:
 - Selection of records for urbanized neighborhoods (removal of records for small islands).
 - Normalization application (min-max) of quantitative attributes;
 - Application of transforming categorical data to ordinals (neighborhood);
 - Creation of a binary Class attribute based on the number of homicides that occurred in the following month equal to zero (non-homicide) and greater than zero (homicide occurrence);
 
-The processes mentioned above were performed in the Orange Dataming project(Orange Tool: https://orange.biolab.si/);
-The result of the database transformation and cleaning is the file: 
-- https://github.com/josesousaribeiro/Pred2Town/blob/master/Pred2Town_Orange_Pre-processed_by_Orange_bin.csv
+The data is in: dataset.
 
-### Description and translation of clean database labels:
-https://github.com/josesousaribeiro/Pred2Town/blob/master/Translation%20of%20clean%20data%20labels
+The translation of data labels is in: translation Portuguese to English.
 
-## 3 - Measurement of performances;
+## 3 - Tunning process.
 
-The performance measures of the 8 algorithms analyzed in this study are available in the Orange Datamining project file: 
-- Pred2Town_Performances.ows (Orange Tool: https://orange.biolab.si/)
+Table 2 presents all the best parameters found from the execution of the grid search process based on cross-validation with folds size equal to 7, and the metric used to measure the performance of each fold execution was the Area Under ROC – AUC. It was decided to use cross-validation at this stage of creation to identify the most stable machine learning models in the face of data as input.
 
-The result is:
-- https://github.com/josesousaribeiro/Pred2Town/blob/master/Pred2Town_Output_to_Statistic_Analisys.csv.zip
+## 4 - Measurement of performances and statistical analysis.
 
-## 4 - Statistical analysis;
-All statistical analyzes of the 8 algorithms were performed using the Spider 4.0.1 development environment through the python script developed by the authors:
-- Pred2Town_Statistic_Analisys.py
-This, using as input the data generated in step 3.
+The tests performed with the 11 algorithms were divided into two moments:
+
+A) Performance Analysis: Comparison of performances based on Accuracy - ACC and Confusion Matrices;
+
+B) Statistical Analysis: based on the Friedman test and score AUC.
+
+All statistical analyzes of the 11 algorithms were performed using the Spyder 4.0.1 development environment through the python script developed by the authors:
+
+Notebook_Pred2Town_XAI_1.1
+
+## 5 - Visualization of RF results.
+
+In order to present the performance of the RF algorithm in a contextualized way with the space of the study city, in Figure 1, a visualization layer created in the model's output is presented, which distributes each tested instance according to the neighborhood it belongs to. In this way, it is possible to have an understanding of which are the neighborhoods that the algorithm hits the most and in which it misses the most. Note that even without an algorithm receiving the neighborhood attribute as data entry, it manages to learn the patterns of the occurrence of crimes and thus can predict the occurrence of homicide.
+
+<Figure>
+
+Figure 1 - Map with the results of the Random Forest algorithm.
 
 
+## References
 
+All references of research.
 
 
