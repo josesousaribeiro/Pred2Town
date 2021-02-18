@@ -20,7 +20,7 @@ Relevant research has been highlighted in the computing community to develop mac
 
 The disclosure of statistical information present in this study is duly authorized by the Secretariat of Public Security and Social Defense of the State of Pará, Brazil. Document available at: 
 
-[Autorization](https://github.com/josesousaribeiro/Pred2Town/blob/master/Autorization%20of%20Data's%20Utilization/Authorization%20to%20use%20data%20on%20behalf%20of%20Jose%CC%81%20Ribeiro.PDF)
+[Autorization](Autorization of Data's Utilization/Authorization to use data on behalf of José Ribeiro.PDF)
 
 # The procedures performed in this research can be divided into 5 parts:
 
@@ -52,7 +52,7 @@ The pre-processing performed in the tabular database based on time and space, de
 
 The data is in: dataset.
 
-The translation of data labels is in: translation Portuguese to English.
+The translation of data labels is in: [translation Portuguese to English](Translation of clean data labels).
 
 ## 3 - Tunning process.
 
