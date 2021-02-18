@@ -50,13 +50,15 @@ The pre-processing performed in the tabular database based on time and space, de
 - Application of transforming categorical data to ordinals (neighborhood);
 - Creation of a binary Class attribute based on the number of homicides that occurred in the following month equal to zero (non-homicide) and greater than zero (homicide occurrence);
 
-The data is in: dataset.
+The data is in: [dataset](Pred2Town_Pre-processed_by_Orange_binary_class_with_metadata.csv)
 
-The translation of data labels is in: [translation Portuguese to English](Translation of clean data labels).
+The translation of data labels is in: [translation Portuguese to English](Translation of clean data labels)
 
 ## 3 - Tunning process.
 
 Table 2 presents all the best parameters found from the execution of the grid search process based on cross-validation with folds size equal to 7, and the metric used to measure the performance of each fold execution was the Area Under ROC – AUC. It was decided to use cross-validation at this stage of creation to identify the most stable machine learning models in the face of data as input.
+
+![Resume tunnig](Table 2 - Tunning.png)
 
 ## 4 - Measurement of performances and statistical analysis.
 
@@ -68,19 +70,21 @@ B) Statistical Analysis: based on the Friedman test and score AUC.
 
 All statistical analyzes of the 11 algorithms were performed using the Spyder 4.0.1 development environment through the python script developed by the authors:
 
-Notebook_Pred2Town_XAI_1.1
+[Notebook_Pred2Town_XAI_1.1](Notebook_Pred2Town_XAI_1.1.ipynb)
 
 ## 5 - Visualization of RF results.
 
 In order to present the performance of the RF algorithm in a contextualized way with the space of the study city, in Figure 1, a visualization layer created in the model's output is presented, which distributes each tested instance according to the neighborhood it belongs to. In this way, it is possible to have an understanding of which are the neighborhoods that the algorithm hits the most and in which it misses the most. Note that even without an algorithm receiving the neighborhood attribute as data entry, it manages to learn the patterns of the occurrence of crimes and thus can predict the occurrence of homicide.
 
-<Figure>
+![Figure 1](Figura 3 - Map.png)
 
 Figure 1 - Map with the results of the Random Forest algorithm.
 
 
 ## References
 
-All references of research.
+[All references of research](References).
+
+
 
 
