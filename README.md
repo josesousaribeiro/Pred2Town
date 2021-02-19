@@ -71,7 +71,7 @@ B) Statistical Analysis: based on the Friedman test and score AUC.
 
 All statistical analyzes of the 11 algorithms were performed using the Spyder 4.0.1 development environment through the python script developed by the authors:
 
-[Notebook_Pred2Town_XAI_1.1](Notebook_Pred2Town_XAI_1.1.ipynb)
+[Notebook_Pred2Town_XAI_1.1](Notebook_Pred2Town_XAI_v1.1.ipynb)
 
 ## 5 - Visualization of RF results.
 
