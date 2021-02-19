@@ -50,9 +50,9 @@ The pre-processing performed in the tabular database based on time and space, de
 - Application of transforming categorical data to ordinals (neighborhood);
 - Creation of a binary Class attribute based on the number of homicides that occurred in the following month equal to zero (non-homicide) and greater than zero (homicide occurrence);
 
-The data is in: [dataset](Pred2Town_Pre-processed_by_Orange_binary_class_with_metadata.csv)
+The data is in: [dataset](dataset_pred2town_bel.csv)
 
-The translation of data labels is in: [translation Portuguese to English](/Translation of clean data labels)
+The translation of data labels is in: [Portuguese to English](Translation of clean data labels).
 
 ## 3 - Tunning process.
 
