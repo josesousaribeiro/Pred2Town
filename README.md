@@ -52,7 +52,7 @@ The pre-processing performed in the tabular database based on time and space, de
 
 The data is in: [dataset](Pred2Town_Pre-processed_by_Orange_binary_class_with_metadata.csv)
 
-The translation of data labels is in: [translation Portuguese to English](Translation of clean data labels)
+The translation of data labels is in: [translation Portuguese to English](/Translation of clean data labels)
 
 ## 3 - Tunning process.
 
