@@ -59,7 +59,7 @@ The translation of data labels is in: [Portuguese to English](Translation of cle
 Table 2 presents all the best parameters found from the execution of the grid search process based on cross-validation with folds size equal to 7, and the metric used to measure the performance of each fold execution was the Area Under ROC – AUC. It was decided to use cross-validation at this stage of creation to identify the most stable machine learning models in the face of data as input.
 
 
-![alt text](/Figures and Tables/Table 2 - Tunning.png)
+![alt text](https://github.com/josesousaribeiro/Pred2Town/blob/master/Figures%20and%20Tables/Table%202%20-%20Tunning.png)
 
 ## 4 - Measurement of performances and statistical analysis.
 
@@ -77,7 +77,7 @@ All statistical analyzes of the 11 algorithms were performed using the Spyder 4.
 
 In order to present the performance of the RF algorithm in a contextualized way with the space of the study city, in Figure 1, a visualization layer created in the model's output is presented, which distributes each tested instance according to the neighborhood it belongs to. In this way, it is possible to have an understanding of which are the neighborhoods that the algorithm hits the most and in which it misses the most. Note that even without an algorithm receiving the neighborhood attribute as data entry, it manages to learn the patterns of the occurrence of crimes and thus can predict the occurrence of homicide.
 
-![alt text](/Figures and Tables/Figura 3 - Map.png)
+![alt text](https://github.com/josesousaribeiro/Pred2Town/blob/master/Figures%20and%20Tables/Figura%203%20-%20Map.png)
 
 Figure 1 - Map with the results of the Random Forest algorithm.
 
