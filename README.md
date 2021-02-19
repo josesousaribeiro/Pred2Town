@@ -52,7 +52,7 @@ The pre-processing performed in the tabular database based on time and space, de
 
 The data is in: [dataset](dataset_pred2town_bel.csv)
 
-The translation of data labels is in: [Portuguese to English](Translation of clean data labels).
+The translation of data labels is in: [Portuguese to English](https://github.com/josesousaribeiro/Pred2Town/blob/master/Translation%20of%20clean%20data%20labels).
 
 ## 3 - Tunning process.
 
