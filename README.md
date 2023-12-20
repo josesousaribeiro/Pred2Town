@@ -86,6 +86,19 @@ Figure 1 - Map with the results of the Random Forest algorithm.
 
 [All references of research](References).
 
+## Cite this work:
 
+```latex
+
+@inproceedings{ribeiro2022prediction,
+  title={Prediction of Homicides in Urban Centers: A Machine Learning Approach},
+  author={Ribeiro, Jos{\'e} and Meneses, Lair and Costa, Denis and Miranda, Wando and Alves, Ronnie},
+  booktitle={Intelligent Systems and Applications: Proceedings of the 2021 Intelligent Systems Conference (IntelliSys) Volume 3},
+  pages={344--361},
+  year={2022},
+  organization={Springer}
+}
+
+```
 
 
